@@ -1,0 +1,48 @@
+{
+    "name": "css-units-converter",
+    "displayName": "CSS Units Converter",
+    "description": "Convert CSS units on hover in CSS files",
+    "version": "0.0.1",
+    "engines": {
+      "vscode": "^1.74.0"
+    },
+    "categories": [
+      "Other"
+    ],
+    "activationEvents": [
+      "onLanguage:css"
+    ],
+    "main": "./out/extension.js",
+    "contributes": {
+      "configuration": {
+        "title": "CSS Units Converter",
+        "properties": {
+          "cssUnitsConverter.baseFontSize": {
+            "type": "number",
+            "default": 16,
+            "description": "Base font size in pixels for rem conversions"
+          },
+          "cssUnitsConverter.viewportHeight": {
+            "type": "number",
+            "default": 900,
+            "description": "Viewport height in pixels for vh conversions"
+          },
+          "cssUnitsConverter.viewportWidth": {
+            "type": "number",
+            "default": 1440,
+            "description": "Viewport width in pixels for vw conversions"
+          }
+        }
+      }
+    },
+    "scripts": {
+      "vscode:prepublish": "npm run compile",
+      "compile": "tsc -p ./",
+      "watch": "tsc -w -p ./"
+    },
+    "devDependencies": {
+      "@types/vscode": "^1.74.0",
+      "@types/node": "16.x",
+      "typescript": "^4.9.4"
+    }
+  }

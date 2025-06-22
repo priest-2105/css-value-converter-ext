@@ -1,0 +1,30 @@
+ /* Test CSS file for the CSS Units Converter extension */
+
+.container {
+    width: 100vw;
+    height: 50vh;
+    padding: 16px;
+    margin: 1rem;
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  
+  .button {
+    width: 200px;
+    height: 40px;
+    margin: 0.5rem;
+    padding: 8px 16px;
+  }
+  
+  .sidebar {
+    width: 300px;
+    height: 100vh;
+    padding: 1rem;
+  }
+  
+  .modal {
+    width: 80vw;
+    height: 60vh;
+    margin: 2rem;
+    padding: 1.5rem;
+  }
