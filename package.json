@@ -4,6 +4,7 @@
     "description": "Convert CSS units on hover in CSS files",
     "version": "0.0.1",
     "publisher": "FawazBaileyy",
+    "icon": "icon.png",
     "repository": {
       "type": "git",
       "url": "https://github.com/priest-2105/css-value-converter-ext.git"
