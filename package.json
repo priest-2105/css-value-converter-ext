@@ -3,6 +3,11 @@
     "displayName": "CSS Units Converter",
     "description": "Convert CSS units on hover in CSS files",
     "version": "0.0.1",
+    "publisher": "priest2105",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/priest-2105/css-value-converter-ext.git"
+    },
     "engines": {
       "vscode": "^1.74.0"
     },
