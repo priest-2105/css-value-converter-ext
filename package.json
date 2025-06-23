@@ -2,7 +2,7 @@
     "name": "css-units-converter",
     "displayName": "CSS Units Converter",
     "description": "Convert CSS units on hover in CSS files",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "FawazBaileyy",
     "icon": "icon.png",
     "repository": {
