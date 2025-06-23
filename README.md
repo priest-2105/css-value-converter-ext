@@ -16,12 +16,6 @@
 
 ---
 
-## 🚀 Demo
-
-*(A GIF demonstrating the hover conversion would be great here!)*
-
----
-
 ## ⚙️ Extension Settings
 
 You can customize the conversion settings in your VS Code `settings.json` file:
@@ -58,6 +52,9 @@ The extension supports conversions between the following units:
 ---
 
 ## 📜 Release Notes
+
+### 0.0.2
+- Update Readme
 
 ### 0.0.2
 - Added a beautiful icon for the extension.
