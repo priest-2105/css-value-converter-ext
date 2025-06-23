@@ -53,7 +53,7 @@ The extension supports conversions between the following units:
 
 ## 📜 Release Notes
 
-### 0.0.2
+### 0.0.3
 - Update Readme
 
 ### 0.0.2
